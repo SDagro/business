@@ -1,0 +1,609 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+Regular 400
+Bold 700
+Light 300
+*/
+@font-face {
+    font-family: Gotham-Black;
+    src: url(../fons/gotham_black.otf);
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*=========== Header ===========*/
+.header{
+    height: 93px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: -5px;
+}
+a{
+    text-decoration: none;
+    color: #868686;
+}
+.nav{
+    padding: 10px 20px;
+}
+.nav:hover{
+    background-color: #ffbb42;
+    color: #ffffff;
+    border-radius: 5%;
+    transition: 0.9s;
+}
+
+/*=========== Banner ===========*/
+
+.banner{
+    height: 586px;
+    background-color: #709dca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner_text{
+    color: #ffffff; 
+    text-align: center;
+    margin-top: -85px;
+    position: absolute;
+}
+.first{
+    font-family: Gotham-Black;
+    text-transform: uppercase;
+}
+.two{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: -21px;
+}
+
+/*=========== Forma ===========*/
+
+.form{
+    margin-top: -350px;
+}
+.forma{
+    width: 250px;
+    height: 40px;
+}
+.name{
+    width: 250px;
+    height: 40px;
+    
+}
+.form_butt{
+    width: 210px;
+    height: 46px;
+    background-color: #ffbb42;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+}
+.laptop{
+    position: absolute;
+    margin-top: 404px;
+}
+.lap{
+    width: 540px;
+}
+
+/*=========== Service ===========*/
+
+.opisanie{
+    height: 922px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #394b50;
+
+}
+.our{
+    padding: 5px;
+}   
+.tree{
+    font-family: Gotham-Black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.four{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.services{
+    width: 471px;
+    height: 150px;
+    margin: 10px;
+}
+.boxes{
+    margin-top: 50px;
+    margin-left: 76px;
+    width: 1170px;
+    padding: 10px;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #394b50;
+}
+.boxes_opis{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+.boxes_icon{
+    position: absolute;
+    margin-left: -68px;
+}
+
+/*=========== About Us ===========*/
+
+.about_conteiner{
+    height: 622px;
+    display: flex;
+}
+.about_photo{
+    width: 50%;
+    height: 622px;
+}
+.ab_ph{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.about_opis{
+    width: 50%;
+    height: 622px;
+    background-color: #ffc155;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box_about{
+    width: 504px;
+    height: 310px;
+}
+.about_galp{
+    font-family: Gotham-Black;
+    color: #ffffff;
+    font-size: 25px;
+}
+.about_text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.about_butt{
+    width: 210px;
+    height: 46px;
+    margin-top: 20px;
+    background-color: #ffbb42;
+    border: none;
+    text-transform: uppercase;
+}
+.about_tab{
+    color: #ffffff;
+}
+
+/*=========== Choos your pricing ===========*/
+
+.pricing{
+    height: 898px;
+    background-color: #e7edf3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.pricing_text{
+    text-align: center;
+    color: #394b50;
+}
+.pricing_name{
+    font-family: Gotham-Black;
+    font-size: 25px;
+}
+.pricing_opis{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: -25px;
+}
+.pricing_variant{
+    width: 1170px;
+    margin-top: -154px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.plan_one{
+    width: 388px;
+    height: 439px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.plan_name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #818b95;
+    text-transform: uppercase;
+}
+.plan_price{
+    color: #ffbb42;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: -15px;
+}
+.per{
+    color: #818b95;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: -46px;
+}
+.plan_two{
+    width: 394px;
+    height: 498px;
+    background-color: #709dca;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.plan_tree{
+    width: 388px;
+    height: 439px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.plan_opis{
+    width: 300px;
+    list-style: none;
+    border-top: solid 1px #818b95;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #818b95;
+    text-align: center;
+}
+.plan_butt{
+    width: 210px;
+    height: 46px;
+    background-color: #ffbb42;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    align-items: center;
+}
+.plan_butt:hover{
+    background-color: #d7992c;
+    transition: 0.9s;
+}
+.plan_conteiner{
+    margin: 10px;
+}
+.plan_name2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.plan_price2{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: -15px;
+}
+.per2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: -46px;
+}
+.plan_opis2{
+    color: #ffffff;
+    width: 300px;
+    list-style: none;
+    border-top: solid 1px #ffffff;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*=========== How It Works ===========*/
+
+.works_conteiner{
+    height: 854px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.works_text{
+    text-align: center;
+    margin-top: -130px;
+}
+.works_name{
+    font-family: Gotham-Black;
+}
+.works_opis{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: -20px;
+}
+.steps_boxs{
+    width: 1170px;
+    height: 358px;
+    display: flex;
+    
+    align-items: center;
+    margin-top: 50px;
+}
+.step_tab{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 34px;
+    
+}
+.steps{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 76px;
+
+}
+.arrow1{
+    margin-top: -193px;
+    margin-left: -79px;
+    position: absolute;
+}
+.arrow2{
+    margin-top: -48px;
+    margin-left: -63px;
+}
+.step_icon{
+    
+}
+.step_text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.arrow_conteiner{
+    width: 10px;
+}
+.start{
+    width: 210px;
+    height: 46px;
+    margin-top: 34px;
+    background-color: #ffbb42;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    align-items: center;
+}
+.start:hover{
+    background-color: #d7992c;
+    transition: 0.9s;
+}
+/*=========== Happy clients ===========*/
+
+.happy_clients{
+    background-color: #ffc155;
+    height: 908px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.happy_text{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 50px;
+}
+.happy_name{
+    font-family: Gotham-Black;
+    font-size: 30px;
+    color: #ffffff;
+}
+.happy_opis{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: -33px;
+}
+.review_conteiner{
+    width: 1170px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.happy_block{
+    width: 565px;
+    height: 243px;
+    margin: 6px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.face{
+    border-radius: 50%;
+    width: 100px;
+    padding: 30px;
+}
+.review_opis{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 30px 30px 30px 5px;
+    color: #7b7b7b;
+}
+.signature_blok{
+    position: absolute;
+    margin-left: 167px;
+    margin-top: 107px;
+}
+span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+span:first-child {
+    color: #f8a27a;
+}
+span:last-child {
+    color: #b8c2c6;
+}
+  
+/*=========== Newsletter ===========*/
+
+.new_letter{
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.letter_text{
+    text-align: center;
+    color: #394b50;
+}
+.text_name{
+    font-family: Gotham-Black;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.text_opis{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: -36px;
+}
+.letter_form{
+    border: solid 1px black;
+    margin-top: 30px;
+  }
+
+/*=========== Map ===========*/
+
+.map{
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/map.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.addres{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    text-align: center;
+    color: #aeb7ba;
+    font-size: 15px;
+}
+.adr:first-child{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.adr:last-child{
+    color: #ffbb42;
+}
+.addres_conteiner{
+    display: flex;
+    justify-content: center;
+}
+.map_logo{
+    position: absolute;
+    margin-top: 362px;
+}
+
+/*=========== Fotter ===========*/
+
+.footer{
+    height: 260px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.nav_footer{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+    color: #5e6b6e;
+}
+.contact_footer{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #5e6b6e;
+    margin-bottom: 42px;
+}
+.copiry{
+    height: 44px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #709dca;
+    text-align: center;
+}
